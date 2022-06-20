@@ -15,10 +15,11 @@ def index():
 
 @app.route("/scrape")
 def scrape():
-   mars = mongo.db.mars
-   mars_data = scraping.scrape_all()
-   mars.update_one({}, {"$set":mars_data}, upsert=True)
-   return redirect('/', code=302)
+    mars=mongo.db.mars
+    #holds newly scraped data, referencing scrape_all() function in scraping.py file
+    mars_data=scraping.scrape_all()
+    mars.update({},mars_data,upsert=True)
+    return "Scraping Successful"
 
 # .update_one(query_parameter, {"$set": data}, options)
 
