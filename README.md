@@ -17,5 +17,8 @@ The Mars Hemisphere Images and Titles:
 - Edit the format the facts table;
 - The grid of hemisphere images as thumbnails, see the whole screenshot of all.
 
-![image](https://user-images.githubusercontent.com/103073631/174571566-aa6eba18-bed1-43e8-9104-91b31f5c8504.png)
+The Latest Marz News:
+![image](https://user-images.githubusercontent.com/103073631/175210475-78339bda-577c-47a4-9d05-d8116e2f043c.png)
 
+Scraping Page:
+![image](https://user-images.githubusercontent.com/103073631/175210502-1b9b27a2-1eee-42d7-8a4e-de00202ad3ff.png)
