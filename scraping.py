@@ -114,8 +114,7 @@ def hemisphere(browser):
         browser.find_by_css("a.product-item h3")[i].click()
         each_img = browser.links.find_by_text('Sample').first
         link = each_img['href']
-        hemisphere['img_url'] = 'https://data-class-mars-hemispheres.s3.amazonaws.com/Mars_Hemispheres' + link[27:]
-
+        hemisphere['img_url'] = link
         # Get hemisphere Title
         hemisphere['title']=browser.find_by_css("h2.title").text
 
